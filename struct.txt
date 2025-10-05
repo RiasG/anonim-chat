@@ -1,0 +1,12 @@
+anonymous-chat/
+├── src/
+│   └── main/
+│       ├── java/com/example/anonymouschat/
+│       │   ├── com.example.anonymouschat.AnonymousChatApplication.java
+│       │   ├── com.example.anonymouschat.WebSocketConfig.java
+│       │   ├── com.example.anonymouschat.ChatMessage.java
+│       │   └── com.example.anonymouschat.ChatHandler.java
+│       └── resources/
+│           └── static/
+│               └── index.html
+└── pom.xml
