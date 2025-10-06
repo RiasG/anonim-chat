@@ -30,7 +30,7 @@
         const chatDiv = document.getElementById("chat");
         const messageInput = document.getElementById("message");
 
-        const ws = new WebSocket("ws://localhost:8080/chat");
+        const ws = new WebSocket("https://anonim-chat-chi.vercel.app/chat");
 
         ws.onmessage = function(event) {
             const msg = JSON.parse(event.data);
